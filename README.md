@@ -18,7 +18,7 @@ The application communicates with a Spring Boot backend using REST APIs.
 # Installation and setup
 
 ### Prerequisites
-Install [Maven](https://maven.apache.org/install.html), [MySQL Server](https://dev.mysql.com/downloads/installer/), [Java](https://www.oracle.com/java/technologies/downloads/#jdk23-windows) and optionally [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (to visually manage the database).
+Install [Maven](https://maven.apache.org/install.html), [MySQL Server](https://dev.mysql.com/downloads/installer/), [Java](https://www.oracle.com/java/technologies/downloads/#jdk23-windows), [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and optionally [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (to visually manage the database).
 
 ### Getting started
 Clone the repository, go into **spring-service/src/main/resources/application.properties** and edit the properties file to include your database address, username and password. 
