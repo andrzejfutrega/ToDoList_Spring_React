@@ -1,6 +1,7 @@
 # To-Do List App (React + Material-UI + Spring Boot + MySQL)
+![](./readme.gif)
 
-This project is a simple To-Do List Application built using React and Material-UI (MUI) for the frontend and Spring Boot for the backend. Tasks are stored in a MySQL database. 
+This project is a To-Do List Application built using React and Material-UI (MUI) for the frontend and Spring Boot for the backend. Tasks are stored in a MySQL database. 
 
 It allows users to:
 - View a list of tasks
