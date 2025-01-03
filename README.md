@@ -18,12 +18,12 @@ The application communicates with a Spring Boot backend using REST APIs.
 # Installation and setup
 
 ### Prerequisites
-Install Maven, MySQL Server, Java and optionally MySQL Workbench (to visually manage the database).
+Install [Maven](https://maven.apache.org/install.html), [MySQL Server](https://dev.mysql.com/downloads/installer/), [Java](https://www.oracle.com/java/technologies/downloads/#jdk23-windows) and optionally [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (to visually manage the database).
 
 ### Getting started
 Clone the repository, go into **spring-service/src/main/resources/application.properties** and edit the properties file to include your database address, username and password. 
 
-Also change the client.address property to include the address that the frontend react app will be hosted on. If you host it locally and don't change the port then leave it as is.
+Also change the **client.address** property to include the address that the frontend react app will be hosted on. If you host it locally and don't change the port then leave it as is.
 
 ```
 spring.datasource.url=jdbc:mysql://yourmysqladdress/databasename
